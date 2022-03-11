@@ -11,7 +11,7 @@ function App() {
         className="section section--splash"
         aria-label="Health for Life Splash Image"
       >
-        <img className="img--hfl" src="/logo.svg" />
+        <img className="img--hfl" src="/logo.svg" alt="health for life" />
         <img
           className="img--box-shadow img--splash"
           alt="silhouettes of children jumping against a sunset background"
@@ -47,7 +47,7 @@ function App() {
       <section id="testimonials" className="section">
         <h2>Testimonials</h2>
         <div className="section__container--testimonials">
-          <div className="section__divider" role="hidden" />
+          <div className="section__divider" role="presentation" />
           <div className="section__quotation section__quotation--testimonial">
             I appreciate the concern for my life, in addition to my health.
           </div>
