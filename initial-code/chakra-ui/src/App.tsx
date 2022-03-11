@@ -12,9 +12,9 @@ import {
   Stack,
   StackDivider,
   Text,
-  VStack,
-} from "@chakra-ui/react";
-import React from "react";
+  VStack
+} from "@chakra-ui/react"
+import React from "react"
 
 function App() {
   return (
@@ -26,13 +26,7 @@ function App() {
         maxWidth="100vw"
         aria-label="Health for Life Splash Image"
       >
-        <Image
-          width="30vw"
-          mb="-10.8vw"
-          alignSelf="flex-end"
-          zIndex={10}
-          src="/logo.svg"
-        />
+        <Image width="30vw" mb="-10.8vw" alignSelf="flex-end" zIndex={10} src="/logo.svg" />
         <Image
           boxShadow="0.5em 0.75em 1.2em 0 rgba(0, 0, 0, 0.4)"
           width="100%"
@@ -42,13 +36,7 @@ function App() {
           src="/splash.jpg"
         />
       </Flex>
-      <HStack
-        id="ceo-message"
-        as="section"
-        direction="row"
-        align="center"
-        spacing={1}
-      >
+      <HStack id="ceo-message" as="section" direction="row" align="center" spacing={1}>
         <Image
           borderRadius="full"
           borderWidth="0.3em"
@@ -98,19 +86,16 @@ function App() {
       <Box as="section" id="testimonials">
         <Heading>Testimonials</Heading>
         <VStack
-          divider={<StackDivider borderColor="brand.600" role="hidden" />}
+          divider={<StackDivider borderColor="brand.600" role="presentation" />}
           alignItems="flex-start"
         >
           <Text variant="quotation">
             I appreciate the concern for my life, in addition to my health.
           </Text>
           <Text variant="quotation">
-            Undoubtedly one of the top 50 healthcare networks I&apos;ve ever
-            used!
+            Undoubtedly one of the top 50 healthcare networks I&apos;ve ever used!
           </Text>
-          <Text variant="quotation">
-            I have never once cried while visiting any of my doctors.
-          </Text>
+          <Text variant="quotation">I have never once cried while visiting any of my doctors.</Text>
         </VStack>
       </Box>
       <Box as="section" id="join-us">
@@ -139,7 +124,7 @@ function App() {
         <Button colorScheme="brand">Sign Up for Mailing List</Button>
       </Box>
     </Stack>
-  );
+  )
 }
 
-export default App;
+export default App
