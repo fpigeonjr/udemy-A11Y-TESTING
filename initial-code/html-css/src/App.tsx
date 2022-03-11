@@ -1,7 +1,7 @@
-import "../css/brand.css";
-import "../css/about.css";
+import "../css/brand.css"
+import "../css/about.css"
 
-import React from "react";
+import React from "react"
 
 function App() {
   return (
@@ -27,9 +27,7 @@ function App() {
         <div className="section__quotation section__text--md">
           Here at Health for Life, we care about both your health&nbsp;
           <span className="section__text--emphasis">and</span> your life.
-          <p className="section__quotation--attribution">
-            - Sandra Williams, CEO
-          </p>
+          <p className="section__quotation--attribution">- Sandra Williams, CEO</p>
         </div>
       </section>
       <section id="network-stats" className="section section--contrast">
@@ -55,8 +53,7 @@ function App() {
           </div>
           <div className="section__divider" aria-hidden="true" />
           <div className="section__quotation section__quotation--testimonial">
-            Undoubtedly one of the top 50 healthcare networks I&apos;ve ever
-            used!
+            Undoubtedly one of the top 50 healthcare networks I&apos;ve ever used!
           </div>
           <div className="section__divider" aria-hidden="true" />
           <div className="section__quotation section__quotation--testimonial">
@@ -101,7 +98,7 @@ function App() {
         </button>
       </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
