@@ -86,7 +86,7 @@ function App() {
       <Box as="section" id="testimonials">
         <Heading>Testimonials</Heading>
         <VStack
-          divider={<StackDivider borderColor="brand.600" role="presentation" />}
+          divider={<StackDivider borderColor="brand.600" aria-hidden="true" />}
           alignItems="flex-start"
         >
           <Text variant="quotation">
