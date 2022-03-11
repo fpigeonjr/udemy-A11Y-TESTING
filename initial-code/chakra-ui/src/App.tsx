@@ -26,7 +26,14 @@ function App() {
         maxWidth="100vw"
         aria-label="Health for Life Splash Image"
       >
-        <Image width="30vw" mb="-10.8vw" alignSelf="flex-end" zIndex={10} src="/logo.svg" />
+        <Image
+          width="30vw"
+          mb="-10.8vw"
+          alignSelf="flex-end"
+          zIndex={10}
+          src="/logo.svg"
+          alt="Health for Life Logo"
+        />
         <Image
           boxShadow="0.5em 0.75em 1.2em 0 rgba(0, 0, 0, 0.4)"
           width="100%"
