@@ -43,7 +43,7 @@ function App() {
       <section id="testimonials" className="section">
         <h2>Testimonials</h2>
         <div className="section__container--testimonials">
-          <div className="section__divider" role="presentation" />
+          <div className="section__divider" aria-hidden="true" />
           <div className="section__quotation section__quotation--testimonial">
             I appreciate the concern for my life, in addition to my health.
           </div>
