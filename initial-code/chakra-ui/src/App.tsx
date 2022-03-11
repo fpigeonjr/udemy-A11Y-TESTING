@@ -116,19 +116,17 @@ function App() {
             <FormLabel>Full Name</FormLabel>
             <Input />
           </FormControl>
-          <FormLabel>
-            Region
-            <FormControl id="region">
-              <Select id="region" name="region">
-                <option>Africa</option>
-                <option>Asia</option>
-                <option>Australia</option>
-                <option>Europe</option>
-                <option>North America</option>
-                <option>South America</option>
-              </Select>
-            </FormControl>
-          </FormLabel>
+          <FormControl id="region">
+            <FormLabel>Region</FormLabel>
+            <Select id="region" name="region">
+              <option>Africa</option>
+              <option>Asia</option>
+              <option>Australia</option>
+              <option>Europe</option>
+              <option>North America</option>
+              <option>South America</option>
+            </Select>
+          </FormControl>
         </Stack>
         <Button colorScheme="brand">Sign Up for Mailing List</Button>
       </Box>
