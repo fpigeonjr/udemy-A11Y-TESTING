@@ -32,7 +32,7 @@ function App() {
           alignSelf="flex-end"
           zIndex={10}
           src="/logo.svg"
-          alt="Health for Life Logo"
+          alt="Health for Life"
         />
         <Image
           boxShadow="0.5em 0.75em 1.2em 0 rgba(0, 0, 0, 0.4)"
@@ -52,7 +52,7 @@ function App() {
           mr={3}
           width="30vw"
           maxWidth="400px"
-          alt="photo of Health for Life CEO"
+          alt="Health for Life CEO"
           src="/ceo.png"
         />
         <Flex direction="column">
@@ -116,17 +116,19 @@ function App() {
             <FormLabel>Full Name</FormLabel>
             <Input />
           </FormControl>
-          <FormLabel>Region</FormLabel>
-          <FormControl id="region">
-            <Select id="region" name="region">
-              <option>Africa</option>
-              <option>Asia</option>
-              <option>Australia</option>
-              <option>Europe</option>
-              <option>North America</option>
-              <option>South America</option>
-            </Select>
-          </FormControl>
+          <FormLabel>
+            Region
+            <FormControl id="region">
+              <Select id="region" name="region">
+                <option>Africa</option>
+                <option>Asia</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>South America</option>
+              </Select>
+            </FormControl>
+          </FormLabel>
         </Stack>
         <Button colorScheme="brand">Sign Up for Mailing List</Button>
       </Box>
