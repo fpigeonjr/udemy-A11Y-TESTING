@@ -19,11 +19,7 @@ function App() {
         />
       </section>
       <section id="ceo-message" className="section section--ceo-message">
-        <img
-          className="img--border img--round img--ceo"
-          alt="photo of Health for Life CEO"
-          src="/ceo.png"
-        />
+        <img className="img--border img--round img--ceo" alt="Health for Life CEO" src="/ceo.png" />
         <div className="section__quotation section__text--md">
           Here at Health for Life, we care about both your health&nbsp;
           <span className="section__text--emphasis">and</span> your life.
@@ -79,18 +75,19 @@ function App() {
               <input id="full-name" name="full name" />
             </label>
           </div>
-          <label className="form__label"></label>
           <div className="form__input">
             Region
             <br />
-            <select id="region" name="region">
-              <option>Africa</option>
-              <option>Asia</option>
-              <option>Australia</option>
-              <option>Europe</option>
-              <option>North America</option>
-              <option>South America</option>
-            </select>
+            <label className="form__label" htmlFor="region">
+              <select id="region" name="region">
+                <option>Africa</option>
+                <option>Asia</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>South America</option>
+              </select>
+            </label>
           </div>
         </div>
         <button type="submit" className="button">
